@@ -1,2 +1,2 @@
 #0x02. C - Functions, nested loops
-codes about nested loops and functions
+This is a readme about 0x02-functions_nested_loops
