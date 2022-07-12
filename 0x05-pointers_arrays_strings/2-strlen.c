@@ -1,6 +1,4 @@
 #include "main.h"
-#include <string.h>
-#include "holberton.h"
 /**
 * _strlen -> function to get the length of a string
 * @s: string pointer to passed to this function
@@ -8,11 +6,9 @@
 */
 int _strlen(char *s)
 {
-	int len;
+	int index;
 
-	for (; *s != '\0'; s++)
-	{
-		len += 1;
-	}
-	return (len);
+	for (index = 0; s[index] != '\0' ; index++)
+		;
+	return (index);
 }
